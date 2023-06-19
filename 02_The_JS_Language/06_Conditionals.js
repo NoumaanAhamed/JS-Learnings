@@ -11,6 +11,13 @@ let accessAllowed = age > 18 ? true : false;
 
 console.log(accessAllowed);
 
+//* ?? --> returns first defined value(not null/undefined)
+let user;
+
+let userName = user ?? "anonymous";
+
+console.log(userName);
+
 //!For multiple Symbols like many &&
 
 //* OR -->returns  first Truthy value else last value;
